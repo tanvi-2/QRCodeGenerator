@@ -1,0 +1,19 @@
+{
+  "name": "qrcodegenerator",
+  "version": "1.0.0",
+  "description": "A simple qr code generated",
+  "main": "QRcode.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tanvi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "inquirer": "^10.0.2",
+    "pg": "^8.12.0",
+    "qr-image": "^3.2.0"
+  }
+}
